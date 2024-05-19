@@ -3,19 +3,6 @@
 #------------------------------------------------------------------------------
 #Author: Eugene Wiafe Asiedu
 
-# Backup CaseManager configs and Redmine Database
-# Usage:
-#     backupScript.sh [option] backupFile
-# Option:
-#     [no option] : backup all config files and DB dump
-#     --data      : plus no option, backup logs under /log-collector
-# Error Code:
-#     0 = OK.
-#     1 = Wrong parameters
-#     2 = Wrong extension
-#     3 = Archive file exists
-#-------------------------------------------------------------------------------
-
 storagePath=/storage
 option=
 archiveFilePath=
